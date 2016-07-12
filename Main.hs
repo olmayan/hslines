@@ -1,5 +1,12 @@
 module Main (main) where
 
-import GameLogic
+import MainWindow
+import Graphics.UI.Gtk
 
-main = putStrLn "Hello, World!"
+main = do
+    initGUI
+    
+    window <- mainWindowNew
+    widgetShowAll window
+    
+    mainGUI

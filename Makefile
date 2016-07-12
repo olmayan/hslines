@@ -1,5 +1,5 @@
 PROGS  = hslines
-SOURCES = Main.hs GameLogic.hs
+SOURCES = Main.hs GameLogic.hs MainWindow.hs
 
 all : $(PROGS)
 
